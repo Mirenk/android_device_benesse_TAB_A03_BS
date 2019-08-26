@@ -1,0 +1,3 @@
+LOCAL_PATH := device/benesse/TAB_A03_BR
+
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_TAB_A03_BR.mk
