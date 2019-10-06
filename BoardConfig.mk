@@ -29,6 +29,7 @@ BOARD_RECOVERY_SWIPE := true
 BOARD_USES_MMCUTILS := true
 BOARD_SUPPRESS_EMMC_WIPE := true
 TW_THEME := landscape_hdpi
+TW_INPUT_BLACKLIST := "isl29023\x0alsm9ds1_mag"
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
