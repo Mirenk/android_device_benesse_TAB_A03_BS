@@ -1,3 +1,3 @@
-LOCAL_PATH := device/benesse/TAB_A03_BR
+LOCAL_PATH := device/benesse/TAB_A03_BS
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_TAB_A03_BR.mk
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_TAB_A03_BS.mk
