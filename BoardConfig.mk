@@ -41,6 +41,6 @@ BOARD_KERNEL_CMDLINE :=  androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-
+LZMA_RAMDISK_TARGETS := recovery
 
 
