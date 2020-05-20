@@ -42,12 +42,5 @@ BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 
-# Marvell specifics
-#MRVL_ION := true
-#BOARD_CUSTOM_BOOTIMG := true
-#BOARD_MRVL_BOOTIMG := true
-#BOARD_CUSTOM_MKBOOTIMG := marvl-mkbootimg
-#BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mrvl/bootimg.mk
-
 
 
